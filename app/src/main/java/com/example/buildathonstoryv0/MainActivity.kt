@@ -126,7 +126,7 @@ class MainActivity : ComponentActivity() {
 
             // Instantiate the RequestQueue.
             val queue = Volley.newRequestQueue(this)
-            val url = "https://b81d-34-87-63-89.ngrok.io"
+            val url = "https://593f-34-87-63-234.ngrok.io"
             //Log.d("input", input)
             val jsonObject = JSONObject()
             var prompt:String
@@ -151,7 +151,7 @@ class MainActivity : ComponentActivity() {
 
         val requestUrl = HttpUrl.Builder()
             .scheme("https")
-            .host("b81d-34-87-63-89.ngrok.io")
+            .host("593f-34-87-63-234.ngrok.io")
             .addQueryParameter("prompt", prompt)
             .addQueryParameter("isPictureStory", addImagesIsChecked.toString())
             .build()
