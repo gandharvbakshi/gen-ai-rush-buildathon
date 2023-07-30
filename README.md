@@ -25,3 +25,5 @@ Kotlin for Front end, Python for back end. GPT-3.5-turbo for story generation, G
 ## What I Learned:
    Write about the biggest learning you had while developing the prototype: How to train Stable Diffusion XL on personal images to generate consistent images! 
 
+ 
+ 
